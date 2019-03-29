@@ -1,22 +1,24 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 #define N 4
 #define M 5
 
 int main(void) 
 {
 	int f,c;
-	float mt [N] [M];
+	double mt [N][M];
 
-	for(int f = 0 ; f<N ; f++)
+
+	for(f = 0 ; f<N ; ++f)
 	{
-		for (int f = 0; f < N; f++)
+		for (c = 0; c < M; ++c)
 		{
-			printf("%f  ", mt[f] [c]);
+			printf("%lf  \n", mt [f][c]);
 		}
 		printf("\n");
+	}
 
 		return 0;
-	}
 }

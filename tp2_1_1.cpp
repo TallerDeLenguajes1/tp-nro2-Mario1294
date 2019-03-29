@@ -11,9 +11,9 @@ int main(void)
 
 	for(int f = 0 ; f<N ; f++)
 	{
-		for (int f = 0; f < N; f++)
+		for (int c = 0; c < N; c++)
 		{
-			printf("%f  ", mt[f] [c]);
+			printf("%f \n", mt[f][c]);
 		}
 		printf("\n");
 
